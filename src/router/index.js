@@ -8,6 +8,11 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Wedding',
     component: ()=>import('@pages/Wedding/Wedding.vue')
+  },
+  {
+    path: '*',
+    name: 'Wedding',
+    component: ()=>import('@pages/Wedding/Wedding.vue')
   }
 ]
 
