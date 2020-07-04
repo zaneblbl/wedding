@@ -1,6 +1,6 @@
 <template>
   <div class="Wedding">
-    
+    dasda
   </div>
 </template>
 
