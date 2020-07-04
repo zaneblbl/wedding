@@ -1,7 +1,6 @@
 const path = require('path')
 const resolve = dir => path.resolve(__dirname, dir)
 module.exports = {
-  publicPath: '/',//publicPath取代了baseUrl
   outputDir: 'dist',
   lintOnSave: true,
   runtimeCompiler: true, //关键点在这  原来的 Compiler 换成了 runtimeCompiler
